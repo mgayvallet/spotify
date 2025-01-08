@@ -153,3 +153,70 @@ h2{
     margin-right: 30px;
     background-color: #000;
 }
+
+footer{
+    background-color: #29224B;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    position: fixed;
+    height: 70px;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    padding: 6px 20px 6px 9px;
+}
+
+.div1Footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+}
+
+.musiqueDivColor{
+    background-color: #CB63BD;
+    height: 53px;
+    width: 53px;
+    border-radius: 5px;
+}
+
+h3{
+    font-size: 13px;
+    font-weight: 900;
+    line-height: 15.73px;
+}
+
+hgroup{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.DescTitre{
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 12.1px;
+    color: #999898;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.rondVert{
+    height: 24px;
+    width: 24px;
+    background-color: #1DCF5D;
+    border-radius: 999px;
+}
+
+footer > .firstSecFooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
