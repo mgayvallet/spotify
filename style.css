@@ -165,7 +165,7 @@ footer{
     margin-left: 2.5%;
     margin-bottom: 10px;
     border-radius: 8px;
-    padding: 6px 20px 6px 9px;
+    padding: 6px 20px 0 9px;
 }
 
 .div1Footer{
@@ -219,4 +219,12 @@ footer > .firstSecFooter{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+.progressMusique{
+    margin-top: 6px;
+    border-radius: 20px;
+    height: 3px;
+    width: 100%;
+    background-color: white;
 }
